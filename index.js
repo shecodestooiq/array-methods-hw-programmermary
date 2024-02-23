@@ -12,7 +12,7 @@
   let doubledAges = []
   let adults = []
 function processAges(ages) {
-doubledAges = ages.map(age => age * 2)
+ doubledAges = ages.map(age => age*2)
   ages.forEach(function (age , index) {
     console.log(age)
   });
@@ -23,7 +23,7 @@ doubledAges = ages.map(age => age * 2)
     return age.toString()})
   return { doubledAges, adults, ageStrings };
 }
-processAges(ages)
+console.log(processAges(ages));
 module.exports = processAges;
 
 
