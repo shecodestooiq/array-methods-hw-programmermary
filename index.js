@@ -12,9 +12,7 @@
   let doubledAges = []
   let adults = []
 function processAges(ages) {
-  for( i = 0 ; i < ages.length ; i++){
-    doubledAges[i] = ages[i]*2 
-  }
+  doubledAges = ages.map(age => age * 2);
   ages.forEach(function (age , index) {
     console.log(age)
   });
