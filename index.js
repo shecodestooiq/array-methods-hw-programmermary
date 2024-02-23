@@ -12,7 +12,7 @@
   let doubledAges = []
   let adults = []
 function processAges(ages) {
-doubledAges = ages.map(age => age >= 18)
+doubledAges = ages.map(age => age * 18)
   ages.forEach(function (age , index) {
     console.log(age)
   });
